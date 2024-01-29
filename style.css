@@ -94,12 +94,11 @@ nav button {
     justify-content: center;
 }
 
-.form input {
+/* .form > input {
     line-height: 1.5;
     font-size: 1rem;
     width: 70%;
     color: rgba(255, 255, 255, 0.7);
-    /* filter: opacity(0%); */
     padding: 1.5rem 1rem 0.5rem;
     border: 0 solid transparent;
     background: rgba(22, 22, 22, 0.7);
@@ -108,9 +107,9 @@ nav button {
     border-style: solid;
     border-radius: 0.25rem;
     text-align: center;
-}
+} */
 
-.form button {
+/* .form > button {
     flex: 0 0 auto;
     margin-top: 0;
     margin-left: 0.5rem;
@@ -123,6 +122,25 @@ nav button {
     border-radius: 0.25rem;
     text-align: center;
     
+} */
+
+.form > input {
+    padding: 23px 186px 23px 28px;
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(22, 22, 22, 0.7);
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.7);
+    border-radius: 0.25rem;
+    text-align: left;
+
+}
+
+.form > button  {
+    padding: 12px 12px 12px 12px ;
+    font-size: 19px;
+
+    
 }
 
 
@@ -133,3 +151,5 @@ nav button {
     bottom: -0.5rem;
     background-color: rgb(35,35,35);
 }
+
+
